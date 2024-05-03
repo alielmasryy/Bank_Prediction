@@ -7,7 +7,18 @@ The task at hand is to predict products that customers are most likely to purcha
 
 # Summary of the work done
 A CSV file that contained 499,999x48 rows and columns which was split into training sets and test sets
-For cleaning the data I used straightforward methods for simplicity. I believe this may be responsible for the accuracy score. Columns there were not used for features were dropped. Numerical columns with null values were filled with the median and the categorical columns were filled with the mode.
+For cleaning the data I used straightforward methods for simplicity. I believe this may be responsible for the accuracy score. Columns there were not used for features were dropped. Numerical columns with null values were filled with the median and the categorical columns were filled with the mode. I grouped all the ages into different categories and the income as well.
 
 ![image](https://github.com/alielmasryy/Bank_Prediction/assets/143844073/f6d5137a-03e3-4434-bf96-ec2961fc2e9d)
+I saw from this that most customers were adults to senior and the income group was mostly low.
+
+# Training
+Train the RandomForestClassifier using the training data. 
+
+# Conclusions
+Accuracy:  57%
+F1: 59%
+Precision: 80%
+Recall: 46%
+
 
