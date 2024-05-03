@@ -27,8 +27,6 @@ Precision: 80%
 Recall: 46%
 ![image](https://github.com/alielmasryy/Bank_Prediction/assets/143844073/0d32871c-4e44-419a-80fc-3866e9c0ba33)
 
-The model is not very accurate.
-
 
 ### Future Work
 I would like to try a stochastic gradient classifier and other different models next time to see if there is any difference, but also cleaning the data in a better way. I also want to choose better features or more features that are relevant.
