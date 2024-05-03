@@ -29,3 +29,5 @@ I would like to try a stochastic gradient classifier next time to see if there i
 # Overview of files 
 https://www.kaggle.com/competitions/santander-product-recommendation/data
 Since this is a big dataset it is highly recommended after downloading it, to cut it within the terminal. I cut it down to 500,000 columns instead of 13 million.
+
+Libraries such as pandas, matplotlib, and various different ones from sklearn are used here
