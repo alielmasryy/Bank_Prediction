@@ -12,6 +12,11 @@ For cleaning the data I used straightforward methods for simplicity. I believe t
 ![image](https://github.com/alielmasryy/Bank_Prediction/assets/143844073/f6d5137a-03e3-4434-bf96-ec2961fc2e9d)
 I saw from this that most customers were adults to senior and the income group was mostly low.
 
+# Problem Formulation
+Input the customer features
+Output indicators of customer ownership of different products
+Use RandomForestClassifier
+
 # Training
 Split the data into features and target variables. Afterwards, split the data into training and testing sets. Fit your classifier and predict.
 
@@ -24,7 +29,7 @@ Recall: 46%
 
 
 # Future Work
-I would like to try a stochastic gradient classifier next time to see if there is any difference, but mainly cleaning the data in a better way. However, my sister is into trading futures and options so I have become particularly interested in seeing if I can build a model for trading that can predict certain trends which certain strategies fall under within the stock market.
+I would like to try a stochastic gradient classifier and other different models next time to see if there is any difference, but also cleaning the data in a better way. I also want to choose better features or more features that are relevant.
 
 # Overview of files 
 https://www.kaggle.com/competitions/santander-product-recommendation/data
