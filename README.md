@@ -10,7 +10,10 @@ A CSV file that contained 499,999x48 rows and columns which was split into train
 For cleaning the data I used straightforward methods for simplicity. I believe this may be responsible for the accuracy score. Columns there were not used for features were dropped. Numerical columns with null values were filled with the median and the categorical columns were filled with the mode. I grouped all the ages into different categories and the income as well.
 
 ![image](https://github.com/alielmasryy/Bank_Prediction/assets/143844073/f6d5137a-03e3-4434-bf96-ec2961fc2e9d)
-I saw from this that most customers were adults to senior and the income group was mostly low.
+
+![image](https://github.com/alielmasryy/Bank_Prediction/assets/143844073/dd9ee711-38b8-4043-b3b6-23c51f60beca)
+
+I saw from this that most customers were adults to senior and the income group was mostly low as well as the frequency of purchased products.
 
 ### Problem Formulation
 Input the customer features
