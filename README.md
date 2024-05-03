@@ -20,6 +20,8 @@ Accuracy:  57%
 F1: 59%
 Precision: 80%
 Recall: 46%
+![image](https://github.com/alielmasryy/Bank_Prediction/assets/143844073/0d32871c-4e44-419a-80fc-3866e9c0ba33)
+
 
 # Future Work
 I would like to try a stochastic gradient classifier next time to see if there is any difference, but mainly cleaning the data in a better way. However, my sister is into trading futures and options so I have become particularly interested in seeing if I can build a model for trading that can predict certain trends which certain strategies fall under within the stock market.
