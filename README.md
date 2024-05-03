@@ -13,7 +13,7 @@ For cleaning the data I used straightforward methods for simplicity. I believe t
 I saw from this that most customers were adults to senior and the income group was mostly low.
 
 # Training
-Train the RandomForestClassifier using the training data. 
+Split the data into features and target variables. Afterwards, split the data into training and testing sets. Fit your classifier and predict.
 
 # Conclusions
 Accuracy:  57%
@@ -21,4 +21,9 @@ F1: 59%
 Precision: 80%
 Recall: 46%
 
+# Future Work
+I would like to try a stochastic gradient classifier next time to see if there is any difference, but mainly cleaning the data in a better way. However, my sister is into trading futures and options so I have become particularly interested in seeing if I can build a model for trading that can predict certain trends which certain strategies fall under within the stock market.
 
+# Overview of files 
+https://www.kaggle.com/competitions/santander-product-recommendation/data
+Since this is a big dataset it is highly recommended after downloading it, to cut it within the terminal. I cut it down to 500,000 columns instead of 13 million.
