@@ -9,9 +9,12 @@ The task at hand is to predict customers that are most likely to purchase bank p
 A CSV file that contained 499,999x48 rows and columns which was split into training sets and test sets
 For cleaning the data I used straightforward methods for simplicity. I believe this may be responsible for the accuracy score. Columns there were not used for features were dropped. Numerical columns with null values were filled with the median and the categorical columns were filled with the mode. I grouped all the ages into different categories and the income as well.
 
-![image](https://github.com/alielmasryy/Bank_Prediction/assets/143844073/f6d5137a-03e3-4434-bf96-ec2961fc2e9d)
+![image](https://github.com/alielmasryy/Bank_Prediction/assets/143844073/5a7a033a-6d30-4455-8709-d37ede903932)
+![image](https://github.com/alielmasryy/Bank_Prediction/assets/143844073/a3624054-7589-4fc8-96c2-419001c03a13)
+![image](https://github.com/alielmasryy/Bank_Prediction/assets/143844073/b38d885b-8ef9-40be-a9cd-422f5eb40ead)
 
-![image](https://github.com/alielmasryy/Bank_Prediction/assets/143844073/dd9ee711-38b8-4043-b3b6-23c51f60beca)
+The graphs suggest that this dataset is not accurate, the distribution is not realistic.
+
 
 I saw from this that most customers were adults to senior and the income group was mostly low as well as the frequency of purchased products.
 
