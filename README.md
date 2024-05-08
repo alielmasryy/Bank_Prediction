@@ -33,20 +33,29 @@ I feel this affected the preformance of my model
   * Input: Customer behavior data from Santander bank using features
   * Output: Predictions of additional products that customers will purchase in the next month
   * Models
-    * RandomForestClassifier was chosen due to it being easy and flexible
+    * RandomForestClassifier was chosen due to it being easy and flexible, XGBoost model
     * No fine tuning was done
 
 ### Training
-  * Using sckit-learn models and processors
-  * The training took considerable time around 5 minutes
-  * Faced difficulties with missing data and skewed distribution, but mostly resolved with some feature engineering and imputation
+  * Using sckit-learn models and processors as well as XGBoost
+  * The training took considerable time around 5 minutes, however for XGBoost it was relatively quick
+  * Faced difficulties with missing data and skewed distribution, but mostly resolved with some feature engineering and imputation for RFC
+  * For XGBoost, faced difficulty with multi-class classification and having to use label encoder instead of one hot encoder
 
 ### Conclusions
+For RandomForestClassifier
 Accuracy:  57%
 F1: 59%
 Precision: 80%
 Recall: 46%
 ![image](https://github.com/alielmasryy/Bank_Prediction/assets/143844073/0d32871c-4e44-419a-80fc-3866e9c0ba33)
+
+For XGBoost
+Accuracy: 81%
+F1: 15%
+Precision: 34%
+![image](https://github.com/alielmasryy/Bank_Prediction/assets/143844073/f7e02472-c255-40a6-8e66-1316a3638c3f)
+
 ## How to reproduce results
    * Download the data from kaggle (link can be found at the very bottom)
    * Jupyter notebook was what I used to code
